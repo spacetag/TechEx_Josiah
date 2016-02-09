@@ -1,5 +1,6 @@
+{% extends 'layouts/default.html' %}
 {% block content %}
-  <h2>Hello World!</h2>
+  <section data-ui-view ></section>
   <script type="text/javascript">
     window.user = {{user|json|safe}};
     window.modules = null;
